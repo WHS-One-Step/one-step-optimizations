@@ -2,7 +2,7 @@
 This is the official source code repository containing C mathematical methods that will possibly be merged into the one-step-joint repository.
 
 ## Compilation
-The bindings for the Raspberry Pi can be compiled using the command below:
+The bindings for the Raspberry Pi can be compiled using the command below in a Linux terminal:
 
 > gcc -fPIC -shared -o calculator-optimizations.so calculator-optimizations.c -lm
 
