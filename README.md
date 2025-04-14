@@ -55,4 +55,6 @@ Python, an interpreted language, can be quite slow when performing mathematical 
 ## Frameworks
 No frameworks were used in this code, and additionally, no third-party libraries were used in the creation of this shared library for [one-step-joint](https://www.github.com/whs-one-step/one-step-joint)
 - **gcc**, a C compiler, was used to compile the code into a shared library for [one-step-joint](https://www.github.com/whs-one-step/one-step-joint) to use.
+
+## Language
 - **This repository is programmed in C, a language valued for its extreme performance and memory optimizations. Performance is necessary in extensive math calculations to prevent further latency in a project where performance is key.**
