@@ -6,6 +6,8 @@ The bindings for the Raspberry Pi can be compiled using the command below:
 
 > gcc -fPIC -shared -o calculator-optimizations.so calculator-optimizations.c -lm
 
+This code is not meant to be executed as a lone-program, and is instead a major component in [one-step-joint](https://www.github.com/whs-one-step/one-step-joint)
+
 ## Preview
 ```c
 /**
@@ -49,3 +51,7 @@ float calibrate_flexion(const float* thigh_orientation, const float* shank_orien
 ## Explanation
 Python, an interpreted language, can be quite slow when performing mathematical operations. Benchmarks will be eventually performed testing the difference between the baseline python operations and the optimized C binding operations.
 * It is the goal that these C bindings will reduce the latency of the Raspberry Pi, allowing for extreme performance and efficiency.
+
+## Frameworks
+No frameworks were used in this code, and additionally, no third-party libraries were used in the creation of this shared library for [one-step-joint](https://www.github.com/whs-one-step/one-step-joint)
+- **gcc**, a C compiler, was used to compile the code into a shared library for [one-step-joint](https://www.github.com/whs-one-step/one-step-joint) to use.
